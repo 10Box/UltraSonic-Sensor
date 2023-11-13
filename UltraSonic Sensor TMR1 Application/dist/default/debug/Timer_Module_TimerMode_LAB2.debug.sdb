@@ -1,0 +1,189 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+[v i1___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+[v i1___fldiv __fldiv `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+[v i1___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"6 C:\Users\moham\Desktop\MPLAB projects\Timer Module TimerMode LAB2\main.c
+[v _calc_dist calc_dist `(f  1 e 4 0 ]
+"35
+[v _main main `(v  1 e 1 0 ]
+"62
+[v _ISR ISR `II(v  1 e 1 0 ]
+"166 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f877a.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"634
+[v _TMR1 TMR1 `VEus  1 e 2 @14 ]
+"1325
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"2573
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2633
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"2708
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"2711
+[v _RC1 RC1 `VEb  1 e 0 @57 ]
+"2861
+[v _T1CKPS0 T1CKPS0 `VEb  1 e 0 @132 ]
+"2864
+[v _T1CKPS1 T1CKPS1 `VEb  1 e 0 @133 ]
+"2888
+[v _TMR1CS TMR1CS `VEb  1 e 0 @129 ]
+"2891
+[v _TMR1IE TMR1IE `VEb  1 e 0 @1120 ]
+"2894
+[v _TMR1IF TMR1IF `VEb  1 e 0 @96 ]
+"2897
+[v _TMR1ON TMR1ON `VEb  1 e 0 @128 ]
+"2963
+[v _TRISC0 TRISC0 `VEb  1 e 0 @1080 ]
+"2966
+[v _TRISC1 TRISC1 `VEb  1 e 0 @1081 ]
+"5 C:\Users\moham\Desktop\MPLAB projects\Timer Module TimerMode LAB2\main.c
+[v _distance_global distance_global `f  1 e 4 0 ]
+"35
+[v _main main `(v  1 e 1 0 ]
+{
+"36
+[v main@dist dist `uc  1 a 1 4 ]
+"60
+} 0
+"6
+[v _calc_dist calc_dist `(f  1 e 4 0 ]
+{
+"34
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 34 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 27 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 32 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 39 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 38 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 31 ]
+"8
+[v ___fldiv@a a `d  1 p 4 14 ]
+[v ___fldiv@b b `d  1 p 4 18 ]
+"185
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 59 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 58 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 57 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 56 ]
+"10
+[v ___fladd@b b `d  1 p 4 40 ]
+[v ___fladd@a a `d  1 p 4 44 ]
+"237
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 74 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 73 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 65 ]
+"70
+} 0
+"62 C:\Users\moham\Desktop\MPLAB projects\Timer Module TimerMode LAB2\main.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"67
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+[v i1___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v i1___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v i1___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v i1___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v i1___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v i1___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v i1___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+[v i1___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v i1___fldiv@grs grs `ul  1 a 4 20 ]
+"22
+[v i1___fldiv@rem rem `ul  1 a 4 13 ]
+"20
+[v i1___fldiv@new_exp new_exp `s  1 a 2 18 ]
+"19
+[v i1___fldiv@aexp aexp `uc  1 a 1 25 ]
+"18
+[v i1___fldiv@bexp bexp `uc  1 a 1 24 ]
+"16
+[v i1___fldiv@sign sign `uc  1 a 1 17 ]
+"8
+[v i1___fldiv@a a `d  1 p 4 0 ]
+[v i1___fldiv@b b `d  1 p 4 4 ]
+"185
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v i1___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v i1___fladd@grs grs `uc  1 a 1 45 ]
+"15
+[v i1___fladd@bexp bexp `uc  1 a 1 44 ]
+"16
+[v i1___fladd@aexp aexp `uc  1 a 1 43 ]
+"13
+[v i1___fladd@signs signs `uc  1 a 1 42 ]
+"10
+[v i1___fladd@b b `d  1 p 4 26 ]
+[v i1___fladd@a a `d  1 p 4 30 ]
+"237
+} 0

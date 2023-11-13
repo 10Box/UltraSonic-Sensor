@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/debug\Timer_Module_TimerMode_LAB2.debug.hex">
+    <memory name="program">
+      <units>words</units>
+      <length>8192</length>
+      <used>3041</used>
+      <free>5151</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>368</length>
+      <used>151</used>
+      <free>217</free>
+    </memory>
+  </executable>
+</project>
